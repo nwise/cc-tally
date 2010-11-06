@@ -1,0 +1,36 @@
+--- 
+game_types_000001: 
+  id: "1"
+  name: Europe
+  created_at: 2010-11-06 03:25:33.799969
+  updated_at: 2010-11-06 03:25:33.799969
+game_types_000002: 
+  id: "2"
+  name: Paratroops
+  created_at: 2010-11-06 03:25:44.85749
+  updated_at: 2010-11-06 03:25:44.85749
+game_types_000003: 
+  id: "3"
+  name: Stalingrad
+  created_at: 2010-11-06 03:25:57.267699
+  updated_at: 2010-11-06 03:25:57.267699
+game_types_000004: 
+  id: "4"
+  name: Normandy
+  created_at: 2010-11-06 03:26:05.052211
+  updated_at: 2010-11-06 03:26:05.052211
+game_types_000005: 
+  id: "5"
+  name: Mediterranian
+  created_at: 2010-11-06 03:26:20.595314
+  updated_at: 2010-11-06 03:26:20.595314
+game_types_000006: 
+  id: "6"
+  name: Special
+  created_at: 2010-11-06 03:26:39.446127
+  updated_at: 2010-11-06 03:26:39.446127
+game_types_000007: 
+  id: "7"
+  name: Custom
+  created_at: 2010-11-06 03:27:01.2227
+  updated_at: 2010-11-06 03:27:01.2227
