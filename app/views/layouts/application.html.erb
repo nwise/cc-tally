@@ -1,14 +1,103 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>CcTally</title>
+  <meta charset="usf-8" />
+  <meta charset="utf-8" />
+  <title>CC Tally</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
+<div id="wrapper"><!-- #wrapper -->
 
-<%= yield %>
+  <nav><!-- top nav -->
+    <div class="menu">
+      <ul>
+        <li><%= link_to "Home", '/' %></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav><!-- end of top nav -->
 
+  <header><h1><%= link_to "CC Tally", '/' %></h1></header>
+  
+  <section id="main"><!-- #main content and sidebar area -->
+    <section id="content"><!-- #content -->
+      <%= yield %>
+    </section><!-- end of #content -->
+
+    <aside id="sidebar"><!-- sidebar -->
+      <h3>Things To Do</h3>
+      <ul>
+        <li><%= link_to( "BGG", 'boardgamegeek.com') %></li>
+        <li><a href="#">Chat With Friends</a></li>
+        <li><a href="#">Swap Stories</a></li>
+        <li><a href="#">Sell Stuff</a></li>
+        <li><a href="#">Buy Stuff</a></li>
+        <li><a href="#">Trade Stuff</a></li>
+      </ul>
+
+      <h3>Sponsors</h3>
+      <img src="/images/ad180.png" alt="" /><br /><br />
+
+      <h3>Connect With Us</h3>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Flickr</a></li>
+      </ul>
+
+    </aside><!-- end of sidebar -->
+
+  </section><!-- end of #main content and sidebar-->
+
+  <footer>
+    <section id="footer-area">
+
+      <section id="footer-outer-block">
+        <aside class="footer-segment">
+          <h4>BGG Profiles</h4>
+          <ul>
+	    <% Player.all.each do |p| %>
+              <li><%= link_to p.first_name, "http://boardgamegeek.com/user/#{p.handle}" %></li>
+            <% end %>
+          </ul>
+        </aside><!-- end of #first footer segment -->
+
+        <aside class="footer-segment">
+          <h4>Awesome Stuff</h4>
+          <ul>
+            <li><a href="#">one linkylink</a></li>
+            <li><a href="#">two linkylinks</a></li>
+            <li><a href="#">three linkylinks</a></li>
+          </ul>
+        </aside><!-- end of #second footer segment -->
+
+        <aside class="footer-segment">
+          <h4>Coolness</h4>
+          <ul>
+            <li><a href="#">one linkylink</a></li>
+            <li><a href="#">two linkylinks</a></li>
+            <li><a href="#">three linkylinks</a></li>
+          </ul>
+        </aside><!-- end of #third footer segment -->
+
+        <aside class="footer-segment">
+          <h4>What is CC?</h4>
+          <p>Combat Commander (CC) is a card-driven board game covering tactical infantry combat in the European Theater of World War II.</p>
+        </aside><!-- end of #fourth footer segment -->
+
+      </section><!-- end of footer-outer-block -->
+
+    </section><!-- end of footer-area -->
+  </footer>
+
+</div><!-- #wrapper -->
 </body>
 </html>

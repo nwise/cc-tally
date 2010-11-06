@@ -1,0 +1,23 @@
+<h1>Listing scenarios</h1>
+
+<table>
+  <tr>
+    <th>Code</th>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @scenarios.each do |scenario| %>
+  <tr>
+    <td><%= scenario.code %></td>
+    <td><%= scenario.name %></td>
+    <td><%= link_to 'Edit', edit_scenario_path(scenario) %></td>
+    <td><%= link_to 'Destroy', scenario, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Scenario', new_scenario_path %>

@@ -1,0 +1,36 @@
+<h2>Listing games</h2>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Game</th>
+    <th>Scenario</th>
+    <th>Map</th>
+    <th>Player #1</th>
+    <th>P #1 Nationality</th>
+    <th>Player #2</th>
+    <th>P #2 Nationality</th>
+    <th>Winner</th>
+    <th></th>
+  </tr>
+
+<% @games.each do |game| %>
+  <tr class="<%= cycle('odd', 'even')%>_row">
+    <td><%= game.date.strftime('%d-%b-%Y') %></td>
+    <td><%= game.game_type.name %></td>
+    <td><%= game.scenario.code unless game.scenario.nil? %></td>
+    <td><%= "N/A" %></td>
+    <td><%= game.player1.first_name %></td>
+    <td><%= game.faction1.name %></td>
+    <td><%= game.player2.first_name %></td>
+    <td><%= game.faction2.name %></td>
+    <td><%= game.winner.first_name %></td>
+    <td><%= link_to 'Edit', edit_game_path(game) %><br>
+        <%= link_to 'Destroy', game, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Game', new_game_path %>

@@ -1,4 +1,16 @@
 CcTally::Application.routes.draw do
+  resources :scenarios
+
+  resources :factions
+
+  resources :game_types
+
+  resources :players
+
+  resources :games
+
+  root :to => "games#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

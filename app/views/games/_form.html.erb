@@ -1,0 +1,24 @@
+<%= form_for(@game) do |f| %>
+  <% if @game.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@game.errors.count, "error") %> prohibited this game from being saved:</h2>
+
+      <ul>
+      <% @game.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <p><%= f.label :date %>: <%= date_select(:game, :date) %></p>
+  <p><%= f.label :game_type %>: <%= collection_select(:game, :game_type_id, GameType.all, :id, :name) %></p>
+  <p><%= f.label :scenario %>: <%= collection_select(:game, :scenario_id, Scenario.all, :id, :code) %></p>
+  <p><%= f.label :player1 %>: <%= collection_select(:game, :player1_id, Player.all, :id, :handle) %></p>
+  <p><%= f.label :faction1 %>: <%= collection_select(:game, :faction1_id, Faction.all, :id, :name) %></p>
+  <p><%= f.label :player2 %>: <%= collection_select(:game, :player2_id, Player.all, :id, :handle) %></p>
+  <p><%= f.label :faction2 %>: <%= collection_select(:game, :faction2_id, Faction.all, :id, :name) %></p>
+  <p><%= f.label :winner %>: <%= collection_select(:game, :winner_id, Player.all, :id, :handle) %></p>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
