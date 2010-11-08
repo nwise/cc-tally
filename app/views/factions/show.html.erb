@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
-
+<h2><%= @faction.name %></h2>
+Total Plays: <%= Game.games_with_nationality(@faction).size %><br>
 
 <%= link_to 'Edit', edit_faction_path(@faction) %> |
-<%= link_to 'Back', factions_path %>
+<%= link_to 'Nationalities List', factions_path %>
