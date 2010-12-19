@@ -26,7 +26,10 @@
     <td><%= game.faction2.name %></td>
     <td><%= game.winner.first_name %></td>
     <td><%= link_to 'Edit', edit_game_path(game) %><br>
-        <%= link_to 'Destroy', game, :confirm => 'Are you sure?', :method => :delete %></td>
+      <%= button_to "Delete", 
+                    {:action => :destroy, :id => game.id}, 
+                    :confirm => "Are you sure?", :method => :delete %>
+      <%= link_to 'Destroy', game, :confirm => 'Are you sure?', :method => :destroy %></td>
   </tr>
 <% end %>
 </table>
