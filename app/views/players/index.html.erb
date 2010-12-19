@@ -15,7 +15,9 @@
     <td><%= player.first_name %></td>
     <td><%= player.last_name %></td>
     <td><%= link_to 'Edit', edit_player_path(player) %></td>
-    <td><%= link_to 'Destroy', player, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= button_to "Delete", 
+                    {:action => :destroy, :id => player.id}, 
+                    :confirm => "Are you sure?", :method => :delete %></td>
   </tr>
 <% end %>
 </table>
