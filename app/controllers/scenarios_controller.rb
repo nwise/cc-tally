@@ -60,7 +60,7 @@ class ScenariosController < ApplicationController
 
     respond_to do |format|
       if @scenario.update_attributes(params[:scenario])
-        format.html { redirect_to(@scenario, :notice => 'Scenario was successfully updated.') }
+        format.html { redirect_to(scenarios_url, :notice => 'Scenario was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
