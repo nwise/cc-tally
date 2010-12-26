@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101226215521) do
+ActiveRecord::Schema.define(:version => 20101226223908) do
 
   create_table "factions", :force => true do |t|
     t.string   "name"
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(:version => 20101226215521) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "location"
-    t.datetime "date"
+    t.date     "scenario_date"
   end
 
 end

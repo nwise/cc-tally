@@ -14,7 +14,7 @@
   <tr>
     <td><%= scenario.code %></td>
     <td><%= scenario.name %></td>
-    <td><%= scenario.date.strftime("%d-%b-%Y") unless scenario.date.nil? %></td>
+    <td><%= scenario.scenario_date.strftime("%d-%b-%Y") unless scenario.scenario_date.nil? %></td>
     <td><%= link_to 'Edit', edit_scenario_path(scenario) %></td>
     <td><%= link_to 'Destroy', scenario, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
