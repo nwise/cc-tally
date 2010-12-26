@@ -34,3 +34,8 @@ factions_000007:
   name: Canada
   created_at: 2010-11-06 03:20:57.181202
   updated_at: 2010-11-06 03:20:57.181202
+factions_000008: 
+  id: "8"
+  name: India
+  created_at: 2010-11-07 22:16:19.511938
+  updated_at: 2010-11-07 22:16:19.511938

@@ -1,113 +1,595 @@
 --- 
 scenarios_000001: 
-  id: "1"
-  code: "1"
-  name: ""
+  id: "29"
+  code: 25b
+  name: Fields of Blood
   description: 
-  created_at: 2010-11-06 03:42:33.522936
-  updated_at: 2010-11-06 03:42:33.522936
+  created_at: 2010-12-26 21:35:40.621669
+  updated_at: 2010-12-26 22:08:17.511643
+  location: 
+  date: 1944-12-16 00:00:00
 scenarios_000002: 
-  id: "2"
-  code: "2"
-  name: ""
+  id: "18"
+  code: "26"
+  name: Turnbull Turns 'em
   description: 
-  created_at: 2010-11-06 03:42:38.664492
-  updated_at: 2010-11-06 03:42:38.664492
+  created_at: 2010-12-05 00:47:04.876564
+  updated_at: 2010-12-26 22:08:28.711045
+  location: 
+  date: 1944-06-06 00:00:00
 scenarios_000003: 
-  id: "3"
-  code: "3"
-  name: ""
+  id: "60"
+  code: "55"
+  name: Graveyard of the North Shores
   description: 
-  created_at: 2010-11-06 03:42:43.28758
-  updated_at: 2010-11-06 03:42:43.28758
+  created_at: 2010-12-26 21:51:35.746628
+  updated_at: 2010-12-26 22:16:26.637397
+  location: 
+  date: 1944-07-04 00:00:00
 scenarios_000004: 
-  id: "4"
-  code: "4"
-  name: ""
+  id: "59"
+  code: "54"
+  name: East by Northwest
   description: 
-  created_at: 2010-11-06 03:42:47.626036
-  updated_at: 2010-11-06 03:42:47.626036
+  created_at: 2010-12-26 21:51:25.274904
+  updated_at: 2010-12-26 22:16:39.388482
+  location: 
+  date: 1944-06-18 00:00:00
 scenarios_000005: 
-  id: "5"
-  code: "33"
-  name: ""
+  id: "58"
+  code: "53"
+  name: Deeds Not Words
   description: 
-  created_at: 2010-11-06 03:42:54.476472
-  updated_at: 2010-11-06 03:42:54.476472
+  created_at: 2010-12-26 21:51:09.284593
+  updated_at: 2010-12-26 22:16:51.215925
+  location: 
+  date: 1944-06-08 00:00:00
 scenarios_000006: 
-  id: "6"
-  code: "40"
-  name: ""
+  id: "16"
+  code: "52"
+  name: The New Highlanders
   description: 
-  created_at: 2010-11-06 03:43:02.255214
-  updated_at: 2010-11-06 03:43:02.255214
+  created_at: 2010-11-06 03:44:48.768117
+  updated_at: 2010-12-26 22:17:03.28785
+  location: 
+  date: 1944-06-07 00:00:00
 scenarios_000007: 
   id: "7"
   code: "46"
-  name: ""
+  name: Pegasus Bridge
   description: 
   created_at: 2010-11-06 03:43:09.507005
-  updated_at: 2010-11-06 03:43:09.507005
+  updated_at: 2010-12-26 22:17:22.615283
+  location: 
+  date: 1944-06-06 00:00:00
 scenarios_000008: 
-  id: "8"
-  code: RSG
-  name: ""
+  id: "52"
+  code: 47a
+  name: Taking the Point (Historical)
   description: 
-  created_at: 2010-11-06 03:43:51.827873
-  updated_at: 2010-11-06 03:43:51.827873
+  created_at: 2010-12-26 21:49:21.953786
+  updated_at: 2010-12-26 22:17:32.357773
+  location: 
+  date: 1944-06-06 00:00:00
 scenarios_000009: 
-  id: "9"
-  code: "101"
-  name: ""
-  description: 
-  created_at: 2010-11-06 03:43:58.390707
-  updated_at: 2010-11-06 03:43:58.390707
-scenarios_000010: 
-  id: "10"
-  code: "23"
-  name: ""
-  description: 
-  created_at: 2010-11-06 03:44:03.823729
-  updated_at: 2010-11-06 03:44:03.823729
-scenarios_000011: 
-  id: "11"
-  code: "24"
-  name: ""
-  description: 
-  created_at: 2010-11-06 03:44:09.302443
-  updated_at: 2010-11-06 03:44:09.302443
-scenarios_000012: 
-  id: "12"
-  code: "7"
-  name: ""
-  description: 
-  created_at: 2010-11-06 03:44:19.941608
-  updated_at: 2010-11-06 03:44:19.941608
-scenarios_000013: 
   id: "13"
   code: "27"
-  name: ""
+  name: Carentan Causeway
   description: 
   created_at: 2010-11-06 03:44:26.449265
-  updated_at: 2010-11-06 03:44:26.449265
+  updated_at: 2010-12-26 22:08:41.552028
+  location: 
+  date: 1944-06-10 00:00:00
+scenarios_000010: 
+  id: "53"
+  code: 47b
+  name: "Taking the Point (Planned) "
+  description: 
+  created_at: 2010-12-26 21:49:37.418566
+  updated_at: 2010-12-26 22:17:41.807519
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000011: 
+  id: "54"
+  code: "48"
+  name: Widerstandsnest 61
+  description: 
+  created_at: 2010-12-26 21:49:55.996796
+  updated_at: 2010-12-26 22:17:54.351844
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000012: 
+  id: "8"
+  code: RSG:E
+  name: Random Scenario Europe
+  description: 
+  created_at: 2010-11-06 03:43:51.827873
+  updated_at: 2010-12-26 21:38:51.931414
+  location: 
+  date: 
+scenarios_000013: 
+  id: "19"
+  code: "28"
+  name: No Ingouf Around
+  description: 
+  created_at: 2010-12-19 19:54:58.267372
+  updated_at: 2010-12-26 22:08:52.394002
+  location: 
+  date: 1944-06-10 00:00:00
 scenarios_000014: 
   id: "14"
   code: "29"
-  name: ""
+  name: Operation Repulse
   description: 
   created_at: 2010-11-06 03:44:37.242519
-  updated_at: 2010-11-06 03:44:37.242519
+  updated_at: 2010-12-26 22:09:08.778584
+  location: 
+  date: 1944-12-27 00:00:00
 scenarios_000015: 
+  id: "30"
+  code: "30"
+  name: Red Skies at Night
+  description: 
+  created_at: 2010-12-26 21:36:22.687491
+  updated_at: 2010-12-26 22:09:33.840368
+  location: 
+  date: 1943-09-25 00:00:00
+scenarios_000016: 
+  id: "3"
+  code: "3"
+  name: Bonfire of the NKVD
+  description: 
+  created_at: 2010-11-06 03:42:43.28758
+  updated_at: 2010-12-26 22:09:52.331525
+  location: 
+  date: 1941-06-24 00:00:00
+scenarios_000017: 
+  id: "1"
+  code: "1"
+  name: Fat Lipki
+  description: 
+  created_at: 2010-11-06 03:42:33.522936
+  updated_at: 2010-12-26 21:59:04.855082
+  location: 
+  date: 1941-07-03 00:00:00
+scenarios_000018: 
+  id: "24"
+  code: "10"
+  name: Command School
+  description: 
+  created_at: 2010-12-26 21:32:55.794993
+  updated_at: 2010-12-26 22:00:54.424121
+  location: 
+  date: 1943-02-04 00:00:00
+scenarios_000019: 
+  id: "25"
+  code: "11"
+  name: Hold the Line
+  description: 
+  created_at: 2010-12-26 21:33:08.078834
+  updated_at: 2010-12-26 22:01:15.228443
+  location: 
+  date: 1944-02-08 00:00:00
+scenarios_000020: 
+  id: "26"
+  code: "12"
+  name: Misty Mountain
+  description: 
+  created_at: 2010-12-26 21:33:24.630719
+  updated_at: 2010-12-26 22:01:34.80843
+  location: 
+  date: 1944-12-12 00:00:00
+scenarios_000021: 
+  id: "34"
+  code: "13"
+  name: Tussle at Maleme
+  description: 
+  created_at: 2010-12-26 21:42:19.241409
+  updated_at: 2010-12-26 22:01:49.963339
+  location: 
+  date: 1941-05-21 00:00:00
+scenarios_000022: 
+  id: "35"
+  code: "14"
+  name: At the Crossroads
+  description: 
+  created_at: 2010-12-26 21:42:44.578548
+  updated_at: 2010-12-26 22:03:32.625986
+  location: 
+  date: 1939-09-15 00:00:00
+scenarios_000023: 
+  id: "36"
+  code: "15"
+  name: Armata Romana
+  description: 
+  created_at: 2010-12-26 21:43:00.247431
+  updated_at: 2010-12-26 22:03:42.628892
+  location: 
+  date: 1941-07-07 00:00:00
+scenarios_000024: 
   id: "15"
   code: "16"
-  name: ""
+  name: The Blitzkrieg Checked
   description: 
   created_at: 2010-11-06 03:44:43.301123
-  updated_at: 2010-11-06 03:44:43.301123
-scenarios_000016: 
-  id: "16"
-  code: "52"
-  name: ""
+  updated_at: 2010-12-26 22:03:56.372734
+  location: 
+  date: 1940-05-15 00:00:00
+scenarios_000025: 
+  id: "17"
+  code: "17"
+  name: Little Stalingrad
   description: 
-  created_at: 2010-11-06 03:44:48.768117
-  updated_at: 2010-11-06 03:44:48.768117
+  created_at: 2010-12-05 00:44:45.227218
+  updated_at: 2010-12-26 22:04:11.191098
+  location: 
+  date: 1943-12-24 00:00:00
+scenarios_000026: 
+  id: "37"
+  code: "18"
+  name: Bridge Hunt
+  description: 
+  created_at: 2010-12-26 21:43:39.667733
+  updated_at: 2010-12-26 22:04:19.208383
+  location: 
+  date: 1941-04-07 00:00:00
+scenarios_000027: 
+  id: "38"
+  code: "19"
+  name: Metaxas Season
+  description: 
+  created_at: 2010-12-26 21:43:53.396243
+  updated_at: 2010-12-26 22:04:33.465117
+  location: 
+  date: 1941-04-07 00:00:00
+scenarios_000028: 
+  id: "2"
+  code: "2"
+  name: Hedgerows & Hand Grenades
+  description: 
+  created_at: 2010-11-06 03:42:38.664492
+  updated_at: 2010-12-26 22:05:35.222021
+  location: 
+  date: 1944-07-07 00:00:00
+scenarios_000029: 
+  id: "39"
+  code: "20"
+  name: A March in December
+  description: 
+  created_at: 2010-12-26 21:44:45.706874
+  updated_at: 2010-12-26 22:05:46.958443
+  location: 
+  date: 1939-12-12 00:00:00
+scenarios_000030: 
+  id: "40"
+  code: "21"
+  name: Saint Agatha
+  description: 
+  created_at: 2010-12-26 21:45:00.361381
+  updated_at: 2010-12-26 22:05:57.955946
+  location: 
+  date: 1943-08-08 00:00:00
+scenarios_000031: 
+  id: "9"
+  code: "101"
+  name: Rubble Rousers
+  description: 
+  created_at: 2010-11-06 03:43:58.390707
+  updated_at: 2010-12-26 22:06:22.225641
+  location: 
+  date: 1942-10-30 00:00:00
+scenarios_000032: 
+  id: "31"
+  code: "102"
+  name: Night Shift
+  description: 
+  created_at: 2010-12-26 21:37:06.786898
+  updated_at: 2010-12-26 22:06:40.316023
+  location: 
+  date: 1944-07-11 00:00:00
+scenarios_000033: 
+  id: "41"
+  code: "22"
+  name: A Veritable Bloodbath
+  description: 
+  created_at: 2010-12-26 21:45:15.762165
+  updated_at: 2010-12-26 22:06:58.483182
+  location: 
+  date: 1945-02-17 00:00:00
+scenarios_000034: 
+  id: "10"
+  code: "23"
+  name: No-Man's Land
+  description: 
+  created_at: 2010-11-06 03:44:03.823729
+  updated_at: 2010-12-26 22:07:12.435831
+  location: 
+  date: 1942-08-11 00:00:00
+scenarios_000035: 
+  id: "11"
+  code: "24"
+  name: Six Hills
+  description: 
+  created_at: 2010-11-06 03:44:09.302443
+  updated_at: 2010-12-26 22:07:27.070069
+  location: 
+  date: 1940-08-12 00:00:00
+scenarios_000036: 
+  id: "28"
+  code: 25a
+  name: Fields of Fire
+  description: 
+  created_at: 2010-12-26 21:35:28.574713
+  updated_at: 2010-12-26 22:08:01.111587
+  location: 
+  date: 1944-12-16 00:00:00
+scenarios_000037: 
+  id: "23"
+  code: "9"
+  name: Rush to Contact
+  description: 
+  created_at: 2010-12-26 21:32:32.370434
+  updated_at: 2010-12-26 22:10:09.029523
+  location: 
+  date: 1945-04-06 00:00:00
+scenarios_000038: 
+  id: "22"
+  code: "8"
+  name: Breakout Dance
+  description: 
+  created_at: 2010-12-26 21:32:18.937957
+  updated_at: 2010-12-26 22:10:28.087845
+  location: 
+  date: 1943-01-15 00:00:00
+scenarios_000039: 
+  id: "12"
+  code: "7"
+  name: Bessarabian Nights
+  description: 
+  created_at: 2010-11-06 03:44:19.941608
+  updated_at: 2010-12-26 22:10:42.2969
+  location: 
+  date: 1944-04-14 00:00:00
+scenarios_000040: 
+  id: "21"
+  code: "6"
+  name: Paralyzed from the West Down
+  description: 
+  created_at: 2010-12-26 21:31:47.76651
+  updated_at: 2010-12-26 22:10:56.83656
+  location: 
+  date: 1944-06-07 00:00:00
+scenarios_000041: 
+  id: "20"
+  code: "5"
+  name: Cold Front
+  description: 
+  created_at: 2010-12-26 21:31:21.247459
+  updated_at: 2010-12-26 22:11:08.934477
+  location: 
+  date: 1941-12-30 00:00:00
+scenarios_000042: 
+  id: "4"
+  code: "4"
+  name: Closed for Renovation
+  description: 
+  created_at: 2010-11-06 03:42:47.626036
+  updated_at: 2010-12-26 22:11:24.170343
+  location: 
+  date: 1944-12-27 00:00:00
+scenarios_000043: 
+  id: "66"
+  code: "61"
+  name: Surrender is Out of the Question
+  description: 
+  created_at: 2010-12-26 21:53:13.29765
+  updated_at: 2010-12-26 22:11:45.770284
+  location: 
+  date: 1944-08-20 00:00:00
+scenarios_000044: 
+  id: "65"
+  code: "60"
+  name: Old Hickory Resolute
+  description: 
+  created_at: 2010-12-26 21:52:59.660697
+  updated_at: 2010-12-26 22:11:55.721248
+  location: 
+  date: 1944-08-08 00:00:00
+scenarios_000045: 
+  id: "33"
+  code: "31"
+  name: Blizzard Baptism
+  description: 
+  created_at: 2010-12-26 21:38:25.403656
+  updated_at: 2010-12-26 22:13:10.529366
+  location: 
+  date: 1945-01-04 00:00:00
+scenarios_000046: 
+  id: "32"
+  code: "32"
+  name: Look Mom, No Tanks!
+  description: 
+  created_at: 2010-12-26 21:38:07.958469
+  updated_at: 2010-12-26 22:13:28.827387
+  location: 
+  date: 1944-12-24 00:00:00
+scenarios_000047: 
+  id: "5"
+  code: "33"
+  name: We Go!
+  description: 
+  created_at: 2010-11-06 03:42:54.476472
+  updated_at: 2010-12-26 22:13:40.925967
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000048: 
+  id: "27"
+  code: "34"
+  name: Encircled at Hill 30
+  description: 
+  created_at: 2010-12-26 21:35:05.446394
+  updated_at: 2010-12-26 22:13:53.728674
+  location: 
+  date: 1944-06-08 00:00:00
+scenarios_000049: 
+  id: "42"
+  code: "35"
+  name: Spartakovka Salient
+  description: 
+  created_at: 2010-12-26 21:46:10.637711
+  updated_at: 2010-12-26 22:14:11.69113
+  location: 
+  date: 1942-08-23 00:00:00
+scenarios_000050: 
+  id: "43"
+  code: "36"
+  name: Sea Devils
+  description: 
+  created_at: 2010-12-26 21:46:29.625483
+  updated_at: 2010-12-26 22:14:24.479526
+  location: 
+  date: 1942-09-18 00:00:00
+scenarios_000051: 
+  id: "44"
+  code: "37"
+  name: Dom 31
+  description: 
+  created_at: 2010-12-26 21:46:42.626925
+  updated_at: 2010-12-26 22:14:41.992274
+  location: 
+  date: 1942-10-27 00:00:00
+scenarios_000052: 
+  id: "45"
+  code: "38"
+  name: Not One Step Back
+  description: 
+  created_at: 2010-12-26 21:46:57.838788
+  updated_at: 2010-12-26 22:14:56.337193
+  location: 
+  date: 1942-10-01 00:00:00
+scenarios_000053: 
+  id: "46"
+  code: "39"
+  name: Fortresses of Blood and Iron
+  description: 
+  created_at: 2010-12-26 21:47:12.759241
+  updated_at: 2010-12-26 22:15:18.520383
+  location: 
+  date: 1942-10-01 00:00:00
+scenarios_000054: 
+  id: "64"
+  code: "59"
+  name: Cheux'd Up
+  description: 
+  created_at: 2010-12-26 21:52:45.864874
+  updated_at: 2010-12-26 22:15:30.552262
+  location: 
+  date: 1944-06-26 00:00:00
+scenarios_000055: 
+  id: "63"
+  code: "58"
+  name: Compagnie Scamaroni
+  description: 
+  created_at: 2010-12-26 21:52:35.426323
+  updated_at: 2010-12-26 22:15:44.367079
+  location: 
+  date: 1944-06-18 00:00:00
+scenarios_000056: 
+  id: "62"
+  code: "57"
+  name: Bingham Must Hold
+  description: 
+  created_at: 2010-12-26 21:52:23.172191
+  updated_at: 2010-12-26 22:15:56.403837
+  location: 
+  date: 1944-07-17 00:00:00
+scenarios_000057: 
+  id: "61"
+  code: "56"
+  name: 29, Let's Go (through 18 Jul)
+  description: 
+  created_at: 2010-12-26 21:51:54.897049
+  updated_at: 2010-12-26 22:16:14.429807
+  location: 
+  date: 1944-07-11 00:00:00
+scenarios_000058: 
+  id: "55"
+  code: "49"
+  name: Mazed and Confused
+  description: 
+  created_at: 2010-12-26 21:50:07.318064
+  updated_at: 2010-12-26 22:18:03.568305
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000059: 
+  id: "56"
+  code: "50"
+  name: This Man Was Good
+  description: 
+  created_at: 2010-12-26 21:50:32.009983
+  updated_at: 2010-12-26 22:18:13.038931
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000060: 
+  id: "57"
+  code: "51"
+  name: The Uneasy Wait
+  description: 
+  created_at: 2010-12-26 21:50:47.111184
+  updated_at: 2010-12-26 22:18:25.746925
+  location: 
+  date: 1944-06-06 00:00:00
+scenarios_000061: 
+  id: "6"
+  code: "40"
+  name: Into the Breach
+  description: 
+  created_at: 2010-11-06 03:43:02.255214
+  updated_at: 2010-12-26 22:18:40.371868
+  location: 
+  date: 1942-10-17 00:00:00
+scenarios_000062: 
+  id: "47"
+  code: "41"
+  name: The Commissar House
+  description: 
+  created_at: 2010-12-26 21:47:50.007162
+  updated_at: 2010-12-26 22:18:58.926689
+  location: 
+  date: 1942-11-11 00:00:00
+scenarios_000063: 
+  id: "48"
+  code: "42"
+  name: Rumanian Defiance
+  description: 
+  created_at: 2010-12-26 21:48:07.284808
+  updated_at: 2010-12-26 22:19:17.214185
+  location: 
+  date: 1942-11-29 00:00:00
+scenarios_000064: 
+  id: "49"
+  code: "43"
+  name: Lyudnikov's Island
+  description: 
+  created_at: 2010-12-26 21:48:20.287027
+  updated_at: 2010-12-26 22:19:25.701262
+  location: 
+  date: 1942-12-22 00:00:00
+scenarios_000065: 
+  id: "50"
+  code: "44"
+  name: Stalingrad of the North
+  description: 
+  created_at: 2010-12-26 21:48:33.442684
+  updated_at: 2010-12-26 22:19:42.782872
+  location: 
+  date: 1943-01-11 00:00:00
+scenarios_000066: 
+  id: "51"
+  code: "45"
+  name: Stand and Die
+  description: 
+  created_at: 2010-12-26 21:48:48.083366
+  updated_at: 2010-12-26 22:20:01.818983
+  location: 
+  date: 1942-09-27 00:00:00
