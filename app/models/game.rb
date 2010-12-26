@@ -6,11 +6,16 @@ class Game < ActiveRecord::Base
   belongs_to :faction2, :class_name => "Faction"
   belongs_to :winner, :class_name => "Player"
   belongs_to :scenario
-   
+
   named_scope :winning_games_for, lambda { |*args| {:conditions => ["winner_id = ?", args.first]} }
 
+  named_scope :player_ids_by_wins,
+              :select => "winner_id, COUNT(*) AS wins",
+              :group  => "winner_id",
+              :order  => "wins DESC"
+
   def self.wins_for_player(player)
-    wins = self.games_for_player(player).select{|g| g.winner_id = player.id}
+    Game.winning_games_for(player.id).size
   end
 
   def self.games_for_player(player)
@@ -23,5 +28,9 @@ class Game < ActiveRecord::Base
 
   def self.games_with_nationality(faction)
     games = Game.find(:all, :conditions => ["faction1_id = ? OR faction2_id = ?", faction.id, faction.id])
+  end
+
+  def self.players_by_wins
+    Game.player_ids_by_wins.map{|g| Player.find(g.winner_id)}
   end
 end

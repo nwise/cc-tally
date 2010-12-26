@@ -15,6 +15,10 @@
     <div class="menu">
       <ul>
         <li><%= link_to "Home", '/' %></li>
+        <li><%= link_to "Players", players_url %></li>
+        <li><%= link_to "Scenarios", scenarios_url %></li>
+        <li><%= link_to "Nationalities", factions_url %></li>
+        <li><%= link_to "Games", game_types_url %></li>
       </ul>
     </div>
   </nav><!-- end of top nav -->
@@ -59,16 +63,16 @@
         </aside><!-- end of #first footer segment -->
 
         <aside class="footer-segment">
-          <h4>Awesome Stuff</h4>
-          <ul>
-            <li><a href="#">one linkylink</a></li>
-            <li><a href="#">two linkylinks</a></li>
-            <li><a href="#">three linkylinks</a></li>
-          </ul>
+          <h4>Top Players</h4>
+          <ol>
+            <% Game.players_by_wins.each do |player| %>
+              <li><%= link_to "#{player.handle} - #{Game.wins_for_player(player)} wins", player_url(player)%></li>
+            <% end %>
+          </ol>
         </aside><!-- end of #second footer segment -->
 
         <aside class="footer-segment">
-          <h4>Coolness</h4>
+          <h4>Top Scenarios</h4>
           <ul>
             <li><a href="#">one linkylink</a></li>
             <li><a href="#">two linkylinks</a></li>
