@@ -12,6 +12,7 @@
   <% end %>
   <p><%= f.label :code %>: <%= f.text_field :code %></p>
   <p><%= f.label :name %>: <%= f.text_field :name %></p>
+  <p><%= f.label :date %>: <%= f.date_select :date, :start_year => 1939, :end_year => 1945 %>
   <div class="actions">
     <%= f.submit %>
   </div>
