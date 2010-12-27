@@ -5,7 +5,12 @@
 <% wins = Game.winning_games_for(@player) %>
 <% wins_for_player = wins.games_for_players(@player, opponent).size %>
 <% wins_for_opponent = Game.games_for_players(opponent, @player).size - wins_for_player %>
-<img src=<%= "http://chart.apis.google.com/chart?chs=200x225&cht=p&chco=80C65A|346A14&chd=t:#{wins_for_player},#{wins_for_opponent}&chdl=#{@player.first_name}-#{wins_for_player}|#{opponent.first_name}-#{wins_for_opponent}&chtt=Wins+Versus+#{opponent.first_name}"%> width="200" height="225" alt="" />
+<%= image_tag(Gchart.pie(:data   => [wins_for_player, wins_for_opponent],
+                         :labels => ["#{@player.first_name} - #{wins_for_player}", "#{opponent.first_name} - #{wins_for_opponent}"],
+                         :title  => "#{@player.first_name} vs. #{opponent.first_name}",
+                         :margins => [10, 10, 10, 10],
+                         :width  => 315,
+                         :custom => "chma=40,40,40.40&chco=80C65A|346A14" ), :style => "border:1px solid #333" ) unless (wins_for_player == 0 && wins_for_opponent == 0) %>
 <% end %>
 <br>
 <%= link_to 'Edit', edit_player_path(@player) %> |
