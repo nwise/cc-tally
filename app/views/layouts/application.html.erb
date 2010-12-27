@@ -64,11 +64,11 @@
 
         <aside class="footer-segment">
           <h4>Top Players</h4>
-          <ol>
+          <ul>
             <% Game.players_by_wins.each do |player| %>
               <li><%= link_to "#{player.handle} - #{Game.wins_for_player(player)} wins", player_url(player)%></li>
             <% end %>
-          </ol>
+          </ul>
         </aside><!-- end of #second footer segment -->
 
         <aside class="footer-segment">
