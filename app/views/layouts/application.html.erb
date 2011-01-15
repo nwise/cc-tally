@@ -24,11 +24,13 @@
   </nav><!-- end of top nav -->
 
   <header><h1><%= link_to "CC Tally", '/' %></h1></header>
-  
+
   <section id="main"><!-- #main content and sidebar area -->
-    <section id="content"><!-- #content -->
-      <%= yield %>
-    </section><!-- end of #content -->
+  <section id="content"><!-- #content -->
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </section><!-- end of #content -->
 
     <aside id="sidebar"><!-- sidebar -->
       <h3>Players</h3>

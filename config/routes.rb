@@ -1,4 +1,6 @@
 CcTally::Application.routes.draw do
+  devise_for :players
+
   resources :scenarios
 
   resources :factions

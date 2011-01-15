@@ -8,6 +8,7 @@ gem 'rails', '3.0.1'
 gem 'pg'
 gem 'googlecharts'
 gem 'mysql'
+gem 'devise'
 # Use unicorn as the web server
 # gem 'unicorn'
 
