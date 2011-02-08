@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe Game do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+  it "returns a list of player's wins" do 
+    true
+  end
 end
